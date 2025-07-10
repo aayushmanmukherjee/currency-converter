@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <meta name="author" content="Aayushman Mukherjee">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="enter-amount">
+                <p>Please enter the amount to be converted below</p>
+                <input type="text" placeholder="100...">
+            </div>
+            <div class="select">
+                <div class="select-box">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="Country flag" width="50px" height="50px">
+                    <select name="country-from" class="from">
+                        
+                    </select>
+                </div>
+                <div class="logo">
+ <i class="fa-solid fa-rotate"></i>
+                <p>TO</p>
+                </div>
+                <div class="select-box">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="Country flag" width="50px" height="50px">
+                    <select name="country-to" class="to">
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="message">
+                <p></p>
+                <button type="submit">Convert</button>
+            </div>
+        </form>
+        <div class="foot">
+            <p>Designed and Developed by Aayushman Mukherjee</p>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,10 +1,12 @@
 # **Currency Converter**
 Currency converter website made using HTML, CSS and Javascript.
 
-The conversion rate is fetched from this API 
+<u>The conversion rate is fetched from this API -</u>
+
 `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/<country-code>`
 
-The flag of the countries is fetched from this API 
+The flag of the countries is fetched from this API -
+
 `https://flagsapi.com/<country-code>/flat/64.png`
 
 # **Preview**
